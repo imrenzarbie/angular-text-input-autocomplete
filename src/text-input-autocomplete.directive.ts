@@ -32,7 +32,7 @@ export class TextInputAutocompleteDirective implements OnDestroy {
   /**
    * The character that will trigger the menu to appear
    */
-  @Input() triggerCharacter = '@';
+  @Input() triggerCharacter = '';
 
   /**
    * The regular expression that will match the search text after the trigger character
